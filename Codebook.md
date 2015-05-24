@@ -20,6 +20,13 @@ These signals were used to estimate variables of the feature vector for each pat
 <li> tBodyAccJerkMag </li>
 <li> tBodyGyroMag </li>
 <li> tBodyGyroJerkMag </li>
+<li> fBodyAcc-XYZ </li>
+<li> fBodyAccJerk-XYZ </li>
+<li> fBodyGyro-XYZ </li>
+<li> fBodyAccMag </li>
+<li> fBodyAccJerkMag </li>
+<li> fBodyGyroMag </li>
+<li> fBodyGyroJerkMag </li>
 </ul>
 
 The set of variables that were estimated from these signals are: 
