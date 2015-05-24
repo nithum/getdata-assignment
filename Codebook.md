@@ -9,20 +9,24 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
+<ul>
+<li> tBodyAcc-XYZ </li>
+<li> tGravityAcc-XYZ </li>
+<li> tBodyAccJerk-XYZ </li>
+<li> tBodyGyro-XYZ </li>
+<li> tBodyGyroJerk-XYZ </li>
+<li> tBodyAccMag </li>
+<li> tGravityAccMag </li>
+<li> tBodyAccJerkMag </li>
+<li> tBodyGyroMag </li>
+<li> tBodyGyroJerkMag </li>
+</ul>
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation"
+<ul>
+<li> <b>mean()</b>: Mean value </li>
+<li> <b>std()</b>: Standard deviation" </li>
+</ul>
 
 Our final dataset is obtained by taking the mean of each of these variables for each subject-activity combination.
